@@ -24,6 +24,7 @@ public class Exit : MonoBehaviour
             SceneManager.LoadScene("Menu");
         }
     }
+    //
     private void OnTriggerEnter(Collider other)
     {
         print(other.tag);
